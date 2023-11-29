@@ -1,39 +1,39 @@
 # Site
-repository: sproogen/resume-theme
+repository: umairadeeb/umairadeeb.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Umair Adeeb Shahid
+title: Sr. DevOps/Platform Engineer
+email: Umairr@gmail.com
+website: umairadeeb.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
+#twitter_username: umairadeeb
+github_username:  umairadeeb
+# stackoverflow_username: "2234859"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: umairadeeb
+linkedin_username: umairadeeb
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,45 +46,85 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/umairadeeb.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  A results-driven DevOps/Platform engineer with extensive experience in designing and managing scalable solutions for diverse IT environments. Proficient in a wide range of technical skills, I am committed to optimizing system performance and reliability.
+  My expertise spans across various areas including Kubernetes, CI/CD tools, Cloud platforms, Virtualization, IaC, and on-call rotations for incident response teams.
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
+  Technical skills/tools:
+  <mark>Linux system administration</mark>, <mark>Kubernetes</mark>, <mark>Docker</mark>, <mark>Infrastructure as Code (IaC Terraform)</mark>, <mark>GitHub Actions</mark>, <mark>GitLab CI</mark>, <mark>Jenkins</mark>, <mark>ArgoCD</mark>, <mark>argo-rollouts</mark>, <mark>Spinnaker</mark>, <mark>kOps</mark>, <mark>GKE</mark>, <mark>EKS</mark>, <mark>ECS</mark>, <mark>Puppet</mark>, <mark>Ansible</mark>, <mark>Bash</mark>, <mark>Python</mark>, <mark>Jfrog Artifactory</mark>, <mark>DataDog</mark>, <mark>Prometheus</mark>, <mark>Grafana stack</mark>, <mark>OpsGenie</mark>, <mark>PagerDuty</mark>, <mark>Keeper Secrets Manager</mark>, <mark>AWS Secrets Manager</mark>
+
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Super awesome project
+#        link: github.com/sproogen
+#        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: PPRO Holding GmbH
+        link: https://www.ppro.com/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Senior DevOps Engineer
+        caption: August 2020 - Present
+#        quote: >
+#          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - Led the VCS Migration Project to GitHub:
+              Spearheaded the successful migration of VCS from GitLab to GitHub.
+              Moved source code, MR history, comments, & pipelines seamlessly
+
+            - Developed Self-Service Repository Provisioning Tool with Terraform/Terragrunt:
+              Automated the application of security best practices, ensuring adherence to standards
+
+            - Implemented Repository Configuration Validation Workflow:
+              Created a crucial workflow to validate configs for security compliance that prevents unauthorized changes by blocking PRs & pipelines
+
+            - Established Self-Service ECS-Based GitHub Runners:
+              Enabled ephemeral provisioning of runners as ECS tasks to reduce cost of running self-hosted runners while allowing access to private VPCs
+
+            - Deployed Google Kubernetes Engine Based GitHub Runners:
+              Supported resource-intensive builds, enhancing performance
+
+            - Designed Secrets Management System with Keeper Security:
+              Ensured standardized secret storage for CI/CD and cloud deployments
+
+            - Managed Multi-Environment Kubernetes Clusters with kOps:
+              Ensured high availability and scalability of the Kubernetes infrastructure
+
+            - Administered Kubernetes Tooling and Continuous Deployment:
+              Sealed-secrets, Kube2iam, Cert-manager, External-DNS, Ingress Controllers, & a Prometheus monitoring stack
+              Continuous Deployment (CD) using ArgoCD & Argo-Rollouts, supporting multiple deployment strategies
+
+            - Implemented DataDog-Based App and Service Monitoring:
+              Designed and maintained comprehensive monitoring solutions with integrations, monitors, and dashboards
+
+            - Established GitLab Shared Pipeline Library:
+              Set up a GitLab shared pipeline library, similar to Jenkins, to streamline the development process
+
+            - Managed Terraform-Based Infrastructure as Code (IaC) Repositories:
+              For AWS, GCP, GitHub, Keeper Secrets Manager, and partially for Okta
+
+            - Provided On-Call Support and Incident Remediation
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
