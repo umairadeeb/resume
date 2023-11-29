@@ -127,9 +127,6 @@ content:
 
             - Provided On-Call Support and Incident Remediation
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: Wirecard Acceptance Technologies
         link: https://www.wirecard.com/
@@ -142,9 +139,6 @@ content:
             - Immutable deployments on virtual machines using puppet and terraform.
             - Write Puppet modules to automate execution of deployments.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: Nisum Technologies
         link: https://www.nisum.com/
@@ -161,9 +155,6 @@ content:
             - Develop complete CI/CD pipelines using Jenkins, Gitlab/Github, Kubernetes, ISTIO, and Spinnaker
             - Prepare best practices based on POC on Deployment Strategies (blue/green, rolling updates, canary, blue/green with canary)
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: Primatics Financial
         link: https://www.ssctech.com/products/evolv
@@ -186,9 +177,6 @@ content:
             - Management, Administration and Deployment of JBOSS Server.
             - Bash scripting to automate different technological pieces.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left  
         title: GFK Etilize
         link: https://www.etilize.com/
@@ -203,9 +191,6 @@ content:
             - Developed PHP & MySQL based application for centralized logging of linux services (/var/log/messages, apache log, proftpd log etc).
             - Feasibility, testing, and migration of around 150 users from Windows XP to Ubuntu 12.04.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left  
         title: Sybrid
         link: https://www.sybrid.com/
@@ -218,9 +203,6 @@ content:
             - Migration from ISA Proxy Server to Linux based proxy / Mikrotik Router OS
             - Migration from Microsoft’s active directory to Linux’s Open LDAP / Samba services
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: System Support Engineer
         link: https://ptcl.com.pk/
@@ -249,9 +231,6 @@ content:
         description: | # this will include new lines to allow paragraphs
 #          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: University Of Karachi, Pakistan
         caption: 2008 - 2010
@@ -269,9 +248,6 @@ content:
         caption: March 2020
         sub_title: Google
 
-  - title: Certifications
-    layout: list
-    content:
       - layout: left
         title: Google Certified Associate Cloud Engineer
         caption: 2019 - 2021
