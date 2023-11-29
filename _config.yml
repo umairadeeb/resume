@@ -265,7 +265,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: Site Reliability Engineering: Measuring and Managing Reliability
+        title: Site Reliability Engineering - Measuring and Managing Reliability
         caption: March 2020
         sub_title: Google
 
